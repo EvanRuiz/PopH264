@@ -2,8 +2,7 @@
 
 #include <span>
 #include <string>
-
-
+#include <cstdint>
 
 //	to avoid symbol clash when static lib is linked, (as symbol visibility doesn't work very well cross platform)
 //	hide the clashin symbols in a namespace
